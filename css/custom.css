@@ -1,0 +1,549 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+   margin: 0px;
+   padding: 0px;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    cursor: pointer;
+}
+
+nav {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    background-color: #fff;
+}
+
+nav ul {
+    float: right;
+    margin-right: 15px;
+}
+
+nav li {
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    color: #004399;
+    margin-top: 8px;
+}
+
+nav li:hover {
+    color: #EF2118;
+}
+
+nav a {
+    float: left;
+}
+
+nav img {
+    float: left;
+    margin: 15px;
+    
+}
+
+nav .nav-social {
+    float: right;
+    vertical-align: middle;
+    margin: 13px 15px 0px 0px;
+}
+
+.nav-social div {
+    float: left;
+    margin-left: 5px;
+    padding: 15px 8px;
+}
+
+.nav-social a {
+    float: left;
+    color: #004399;
+}
+
+.nav-social div:hover {
+    color: #EF2118;
+    cursor: pointer;
+}
+
+.nav-button {
+    padding: 10px 30px;
+    border: 2px solid #EF2118;
+    border-radius: 25px;
+    color: #EF2118;
+    margin-top: 0px;
+}
+
+.nav-button:hover {
+    background-color: #EF2118;
+    color: white;
+}
+
+.home-background-image {
+    padding-top: 100px;
+    clear: both;
+   background-image: url(../img/bkg-image-2.jpg);
+    height: calc(100% - 90px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sub-box {
+    clear: both;
+    display: block;
+    float: right;
+    width: 300px;
+    height: auto;
+    background-color: white;
+    padding: 15px 20px;
+    margin-right: 15%;
+    margin-top: 3%;
+}
+
+.sub-box input {
+    float: left;
+    width: 100%;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    text-transform:uppercase;
+    margin-bottom: 5px;
+}
+
+.sub-box button {
+    padding: 15px;
+    background-color: #EF2118;
+    border: none;
+    color: white;
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub-box button:hover {
+    background-color: darkred;
+}
+
+.home-logo {
+    float: right;
+    margin-right: 14%;
+    margin-top: 4%;
+    clear: both;
+}
+
+.vote-alert {
+    background-color: #fff;
+    float: left;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #004398;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 12%;
+}
+
+.vote-alert-2 {
+    display: none;
+}
+
+.about {
+    padding: 30px;
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 0px;
+    margin-bottom: -20px;
+}
+
+.about h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 40px;
+    margin-top: 0px;
+    color: #fff;
+}
+
+.about-descr {
+    width: 35%;
+    margin-left: 10%;
+    padding: 20px;
+    background-color: #004399;
+}
+
+.learn-more {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    background-color: #EF2118;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.learn-more:hover {
+    background-color: darkred;
+}
+
+.about-descr h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 36px;
+    text-align: left;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    float: left;
+    width: 100%;
+}
+
+.about-descr p {
+    width: 100%;
+    line-height: 1.6;
+    color: #fff;
+}
+
+.home-about {
+    width: 50%;
+    float: right;
+    display: inline;
+    margin-top: -350px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    background-color: #273c75;
+    clear: both;
+    overflow: hidden;
+}
+
+.footer img {
+    margin-left: calc(50% - 35px);
+    margin-top: 40px;
+}
+
+.paid-for-by {
+    width: 200px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-left: calc(50% - 125px);
+    margin-top: 25px;
+}
+
+.footer p {
+    width: 100%;
+    text-align: center;
+    float: left;
+    font-size: 16px;
+    color: #fff;
+}
+
+.priorities {
+    padding: 50px;
+    overflow: hidden;
+    background-color: #ecf0f1;
+    clear: both;
+}
+
+.priorities h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
+}
+
+.prior-descr {
+    float: left;
+    padding: 25px;
+    width: calc(50% - 50px);
+    line-height: 1.6;
+}
+
+.prior-img {
+    height: 100%;
+    background-image: url(../img/Sai_Podium.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    width: 50%;
+}
+
+#prior-container {
+    border: 1px solid lightgrey;
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    height: 75%;
+}
+
+.article-header {
+    padding: 100px 60px 30px 60px;
+    font-family: 'Playfair Display', serif;
+    background-color: #004399;
+}
+
+.article-header h1 {
+    margin: 0px;
+    color: #fff;
+}
+
+.article-body {
+    padding: 60px;
+    padding-top: 40px;
+    line-height: 1.6;
+    text-indent: 40px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    background-color: #273c75;
+    color: #fff;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    text-indent: 0px;
+    margin-bottom: 10px;
+    border: 1px solid lightgrey;
+    border-top: none;
+}
+
+.meet-sai-img {
+    width: 450px;
+    margin-left: calc(50% - 225px);
+    vertical-align: middle;
+}
+
+.side-nav-open {
+    float: right;
+    padding: 15px;
+    display: none;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #004399;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #EF2118;
+    color: #fff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.sidenav .closebtn:hover {
+    background-color: #004399;
+}
+
+.side-nav a.nav-button {
+    width: 75%;
+    border-color: #fff;
+}
+
+.contact-img {
+    margin-left: -60px;
+    width: calc(100% + 120px);
+    margin-top: -40px;  
+}
+
+.contact {
+    text-indent: 0px;
+    overflow: hidden;
+}
+
+.contact p {
+    margin: 20px 0px 0px 0px;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.contact b {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contact a {
+    float: left;
+    margin-top: 20px;
+    color: #004399;
+    margin-right: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact .soc {
+    width: auto;
+    border: 2px solid #004399;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.soc:hover {
+    background-color: #004399;
+    color: #fff;
+}
+
+.contact .social-media {
+    margin-left: calc(50% - 100px);
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+@media (max-width: 960px) {
+    .side-nav-open {
+        display: block;
+    }
+    nav ul {
+        display: none;
+    }
+    .nav-social div {
+        display: none;
+    }
+}
+
+@media (max-width: 740px) {
+    .meet-sai-img {
+        width: 100%;
+        margin-left: -40px;
+    }
+}
+
+@media (max-width: 800px) {
+    .prior-descr {
+        width: calc(100% - 50px);
+        height: auto;
+    }
+    
+    .prior-img {
+        display: hidden;
+        width: 100%;
+        background-position: center;
+        height: auto;
+    }
+    
+    #prior-container {
+        height: auto;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 1050px) {
+    .about-descr {
+        width: calc(100% + 30px);
+        margin-left: -30px;
+        margin-top: -30px;
+        float: none;
+    }
+    
+    .home-about {
+        float: none;
+        margin-top: 0px;
+        margin-right: 0px;
+        width: 400px;
+        margin-left: calc(50% - 200px);
+        padding-bottom: 15px;
+    }
+    
+    .about {
+        overflow: hidden;
+        height: auto;
+    }
+    .learn-more {
+        width: 100%;
+    }
+}
+
+@media (max-width: 930px) {
+    .vote-alert {
+        display: none;
+    }
+    .vote-alert-2 {
+        display: block;
+        width: calc(100% - 10px);
+        float: none;
+        margin-left: -10px;
+        text-align: center;
+        margin-top: 0px;
+        background-color: #fff;
+        padding: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: #004398;
+        font-size: 18px;
+    }
+    .home-logo {
+        margin-right: calc(50% - 175px);
+    }
+    .sub-box {
+        margin-right: calc(50% - 165px);
+    }
+}

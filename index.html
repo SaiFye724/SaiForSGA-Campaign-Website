@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sai Maddali for President</title>
+        <meta name="description" content="Sai Maddali is running for SGA President because he has a vision for Georgia State University in which students trust and are listened to by administration. Vote 03/26.">
+        <meta name="keywords" content="President, SGA President, Georgia State University, GSU, SGA, Atlanta">
+        <meta name="author" content="Sai Maddali">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="favicon.ico"/>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Playfair+Display:900|Raleway:300" rel="stylesheet">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <link href="css/custom.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="about.html">MEET SAI</a>
+          <a href="priorities.html">PRIORITIES</a>
+          <a href="contact.html">CONTACT</a>
+          <a href="#" onclick="notvoteyet()">VOTE</a>
+        </div>
+        <div>
+            <div>
+                <nav>
+                    <div>
+                        <a href="index.html"><img class="nav-logo" width="225px" src="img/logo.png"></a>
+                    </div>
+                    <div class="nav-social">
+                        <a href="https://www.facebook.com/saiforsga/" target="_blank"><div>
+                            <i class="fab fa-facebook fa-lg"></i>
+                        </div></a>
+                        <a href="https://www.instagram.com/saiforsga/" target="_blank"><div>
+                            <i class="fab fa-instagram fa-lg"></i>
+                        </div></a>
+                        <a href="https://twitter.com/SaiForSGA" target="_blank"><div>
+                            <i class="fab fa-twitter fa-lg"></i>
+                        </div></a>
+                    </div>
+                    <div>
+                        <ul>
+                            <a href="about.html"><li>MEET SAI</li></a>
+                            <a href="priorities.html"><li>PRIORITIES</li></a>
+                            <a href="contact.html"><li>CONTACT</li></a>
+                            <li class="nav-button">VOTE</li>
+                        </ul>
+                    </div>
+                    <div class="side-nav-open">
+                        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                    </div>
+                </nav>
+            </div>
+            <div class="home-background-image">
+                <img class="home-logo" src="img/white-logo-vertical.png" width="350px">
+                <div class="sub-box">
+                    <form id="form" method="post" action="mail.php">
+                        <input id="email" name="email" type="email" placeholder="email address">
+                        <input id="name" name="name" type="text" placeholder="name">
+                        <button type="submit">SIGN UP</button>
+                    </form>
+                </div>
+                <div class="vote-alert">
+                    Vote March 26th at SGA.GSU.EDU
+                </div>
+            </div>
+            <div class="vote-alert-2">
+                    Vote March 26th at SGA.GSU.EDU
+                </div>
+        </div> 
+        <div class="about">
+            <div class="about-descr">
+                <h1>Meet Sai Maddali</h1>
+                <!--<hr style="border-color: red;">-->
+                <p>I am running for President of Student Government Association (SGA), because I believe that I can make a change in the culture and future service through Student Government. As President, I will advocate for increased student leadership and effectively address my constituents’ concerns. I was raised in Georgia and Downtown Atlanta is my home. I love State with a passion, but I know we can make it better.</p>
+                <a href="about.html"><button class="learn-more">LEARN MORE</button></a>
+            </div>
+            <div class="about-image">
+                <img class="home-about" src="img/home-about.png">
+            </div>
+        </div>
+        <div class="priorities">
+            <div id="prior-container">
+                <div class="prior prior-descr">
+                    <h1>Priorities</h1>
+                    <p>I love Georgia State University and helping others become passionate about our school. I know that State isn’t perfect, but together, we can create immediate and lasting change.<br><br>I promise that the 2018-2019 year of SGA will be filled with quick and decisive improvements to your experience--while also establishing a legacy for the future.<br></p>
+                    <a href="priorities.html"><button style="margin-top: 10px;" class="learn-more">READ MORE</button></a>
+                </div>
+                <div class="prior prior-img">
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <footer>
+                <img width="70px" src="img/panther-icon.png">
+                <div class="paid-for-by">paid for by Sai Maddali for SGA</div>
+                <p>&copy; 2018 Sai Maddali for SGA. All Rights Reserved. </p>
+            </footer>
+        </div>
+        
+        <script>
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+            }
+            function notvoteyet() {
+                alert("Voting has not started yet. Please check back again later.");
+            }
+        </script>
+    </body>
+</html>
